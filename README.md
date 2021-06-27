@@ -147,6 +147,11 @@ commit -m "How use git: First commit"
 git commit --amend --no-edit
 
 ```
+Remember to use Conventional Commits, or some other standard accepted by the community.
+
+- [Conventional Commits - EN](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Conventional Commits - PT-BR](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+
 
 ## Logs
 
