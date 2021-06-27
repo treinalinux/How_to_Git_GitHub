@@ -1,0 +1,14 @@
+[core]
+	editor = vim --noplugin
+[user]
+	name = Alan Alves
+	email = email@email.com.br
+[push]
+  follow-tags = true
+[alias]
+	c = !git add --all && git commit -m
+	s = !git status -s
+	l = !git log --pretty=format:'%C(blue)%h%C(yellow)%d %C(green)%cr %C(cyan)%cn %C(white)%s'
+	amend = !git add --all && git commit --amend --no-edit
+	count = !git shortlog -s --grep
+
