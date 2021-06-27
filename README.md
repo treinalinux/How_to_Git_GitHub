@@ -1,4 +1,4 @@
-# How_to_Git_GitHub
+# How to Git GitHub
 
 ## Pattern Commits
 
