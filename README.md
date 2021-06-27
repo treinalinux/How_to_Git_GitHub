@@ -115,5 +115,14 @@ git stash
 
 git stash list
 
+# apply return dot on project
 git stash apply
+
+# clear the list on stash
+git stash clear
+
+# Prefer to use pop instead of apply
+# pop bounces and cleans old stash
+
+git stash pop
 ```
