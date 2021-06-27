@@ -8,13 +8,19 @@ git init
 
 ## Clone project remote
 ```
-git clone https://remote.git
+git clone git@github.com:treinalinux/How_to_Git_GitHub.git
 ```
 
 ## Add project remote
 
 ```
-git remote add origin https://remote.git
+git remote add git@github.com:treinalinux/How_to_Git_GitHub.git
+```
+
+### View remote repository details
+
+```
+git remote -v
 ```
 
 ## Config of git
