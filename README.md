@@ -90,7 +90,7 @@ git commit --amend --no-edit
 
 ```
 
-### Logs
+## Logs
 
 ```
 git log
@@ -104,4 +104,16 @@ git log --pretty=format:'%C(blue)%h%C(yellow)%d %C(green)%cr %C(cyan)%cn %C(whit
 ## Grep
 ```
 git shortlog -s --grep rails
+```
+
+## Stash
+
+```
+git add .
+
+git stash
+
+git stash list
+
+git stash apply
 ```
