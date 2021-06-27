@@ -195,3 +195,26 @@ git stash clear
 
 git stash pop
 ```
+
+## Tags
+
+```
+## Only for controller personal
+git tag my_tab_personal
+
+## show tags
+git tag
+
+## tag noted recommend for production
+git tag 1.0 -m "release 1.0"
+
+## tag for commits olds
+git tag -a "0.1.beta" -m "release 0.1.beta" 62f493b
+
+## Need you force on push noted
+git push --follow-tags
+
+## Push with tags noted .gitconfig
+[push]
+  follow-tags = true
+```
