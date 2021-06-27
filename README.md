@@ -153,6 +153,12 @@ Remember to use Conventional Commits, or some other standard accepted by the com
 - [Conventional Commits - PT-BR](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 
 
+If you are interested you can install git-commit-msg-linter with npm to use in a project how dev. It will force the use of the default.
+
+```
+npm install -D git-commit-msg-linter
+```
+
 ## Logs
 
 ```
